@@ -2,16 +2,12 @@
 
 **RockPaperScissors** là trò chơi Oẳn Tù Tì (Búa – Kéo – Bao) được triển khai bằng **Solidity** trên **Remix IDE**, kết hợp với giao diện web để người chơi trải nghiệm trực tiếp trên trình duyệt.
 
----
-
 ## ⚡ Công nghệ sử dụng
 
 - **Frontend:** HTML, CSS, JavaScript
 - **Smart Contract:** Solidity (Remix IDE)
 - **Blockchain:** Ethereum Testnet (Sepolia, Goerli…)
 - **Công cụ hỗ trợ:** MetaMask, Prettier, Git
-
----
 
 ## 🚀 Hướng dẫn chạy dự án
 
@@ -32,16 +28,12 @@
 2. Mở file `index.html` bằng trình duyệt  
 3. Kết nối ví MetaMask và chơi trò Oẳn Tù Tì  
 
----
-
 ## 💻 Tính năng
 
 - Người chơi chọn **Búa, Kéo, Bao**  
 - So sánh kết quả theo luật Oẳn Tù Tì  
 - Tích hợp **smart contract** đảm bảo tính minh bạch  
 - Giao diện web đơn giản, dễ thao tác  
-
----
 
 ## 👨‍💻 Author
 
