@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock Paper Scissors Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>✊✋✌️ Rock Paper Scissors on Blockchain</h1>
+
+    <button id="connectButton">🔗 Connect MetaMask</button>
+
+    <div id="gameArea" style="display:none;">
+      <p>Select your move:</p>
+      <div class="buttons">
+        <button onclick="play(0)">✊ Rock</button>
+        <button onclick="play(1)">✋ Paper</button>
+        <button onclick="play(2)">✌️ Scissors</button>
+      </div>
+      <p id="result"></p>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/ethers@5.7.2/dist/ethers.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
